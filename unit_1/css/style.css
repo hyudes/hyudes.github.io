@@ -1,5 +1,5 @@
 body{
-	background-color: teal;
+	background-color: #30b8d1;
 }
 h1{
 	color:white;
@@ -15,7 +15,7 @@ h2{
 }
 
 p {
-	color:red;
+	color:white;
 	font-weight:normal;
 	text-align:center;
 	text-decoration:italic;
