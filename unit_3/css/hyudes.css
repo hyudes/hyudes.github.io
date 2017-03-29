@@ -1,0 +1,23 @@
+body{
+	background: teal;
+}
+h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	font-size:34px;
+} 
+
+h2{
+	color:white;
+	font-weight:normal;
+	font-size: 28px;
+}
+
+p {
+	color:red;
+	font-weight:normal;
+	text-align:center;
+	text-decoration:italic;
+	font-size:18px;
+}
