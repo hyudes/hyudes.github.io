@@ -80,6 +80,10 @@ li{
 	position: relative;
 	width:100%;
 }
+image {
+	position: relative;
+	width:100%;
+}
 #description{
 	color:white;
 	margin-left:90px;
