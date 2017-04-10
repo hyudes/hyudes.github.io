@@ -12,8 +12,6 @@ h1{
 	font-weight:bold;
 	font-size:8em;
 	text-transform: uppercase;
-	position: absolute;
-	top:-30px;
 	left:0;
 	margin-left:100px;
 	text-align:center;
@@ -28,7 +26,7 @@ h2{
 	font-family:"Roboto";
 }
 h3{
-	color:white;
+	color:black;
 	font-weight:600px;
 	font-size: 3em;
 	text-align:left;
@@ -51,12 +49,12 @@ hr {
 }
 
 a {
-	color:white;
+	color:pink;
 }
 ul {
-	color: white;
 	text-align: left;
 	font-family: "Roboto";
+	list-style:none;
 
 }
 
@@ -66,74 +64,65 @@ li{
 	
 }
 
+img{
+	position: relative;
+	display:inline-block;
+	max-width:100%;
+	height:auto;
+	display:block;
+
+}
+
 #slogan{
 	font-weight: 400px;
 	color:white;
 	font-size:2em;
 	text-transform: uppercase;
-	position:absolute;
-	top:200px;
-	margin-left:90px;
+	text-align:center;
 	font-family:"Bree Serif";
 	
 
-}
-.image{
-	position: relative;
-	display:inline-block;
-	max-width:100%;
-	height:auto;
-
-}
-
-img{
-	max-width:100%;
-	display:block;
-	height:auto;
 }
 
 #description{
 	color:white;
 	margin-left:90px;
 	font-size:1.25em;
-	position:absolute;
-	top:300px;
-	margin-right:350px;
+	text-align:center;
+	margin:0 20em;
 	font-family:"Roboto";
 
 }
 
-#leftbox{
-    padding:10px;
-    background-color:#ffbdb6;
-    color:white;
-    display:inline-block;
-	position: relative;
-	float:left;
-	width:31.9%;
-	height:400px;
-	font-family:"Roboto";
+#contact {
+	color: pink;
+	text-align: center;
+}
 
+.organization {
+	font-weight:bold;
+	font-size:2em;
+	margin-bottom: 10px;
 }
-#centerbox{
-    padding:10px;
-    background-color:#a9adb5;
-    color:white;
-    display:inline-block;
-	position: relative;
-	float:left;
-	width:31.9%;
-	height:400px;
-	font-family:"Roboto";
+
+header{
+	background-color:#FFED74;
+	border: 1px black solid;
+    padding: 20px;
 }
-#rightbox{
-    padding:10px;
-    background-color:#b9c170;
-    color:white;
-    display:inline-block;
-	position: relative;
-	float:left;
-	width:31.9%;
-	height:400px;
-	font-family:"Roboto";
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 }
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
