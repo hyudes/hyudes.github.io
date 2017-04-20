@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|Roboto:300,400,500,700,900);
+* { margin:0; padding:0; box-sizing:border-box;}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+  	font-family: "Roboto";
+  	background:white;
+  	text-align:left;
+}
+h1{
+	color:white;
+	font-weight:bold;
+	font-size:8em;
+	text-transform: uppercase;
+	left:0;
+	margin-left:100px;
+	text-align:center;
+	font-family:"Bree Serif";
+} 
+
+h2{
+	color:#566666;
+	font-weight:500px;
+	font-size: 3em;
+	text-align:center;
+	font-family:"Roboto";
+}
+h3{
+	color:black;
+	font-weight:600px;
+	font-size: 3em;
+	text-align:left;
+	font-family:"Roboto";
+
+}
+
+
+p {
+	color:white;
+	font-weight:500px;
+	font-size:1em;
+	font-family:"Roboto";
+}
+hr {
+	color:black;
+	width:800px;
+	border-width:3px;
+	
+}
+
+a {
+	color:pink;
+}
+ul {
+	text-align: left;
+	font-family: "Roboto";
+	list-style:none;
+
+}
+
+li{
+	text-align: left;
+	font-family: "Roboto";
+	
+}
+
+img{
+	position: relative;
+	display:inline-block;
+	max-width:100%;
+	height:auto;
+	display:block;
+
+}
+.organization {
+	float:left;
+	width:33.33%;
+}
+.organization img {
+	width:100%;
+}
+#slogan{
+	font-weight: 400px;
+	color:white;
+	font-size:2em;
+	text-transform: uppercase;
+	text-align:center;
+	font-family:"Bree Serif";
+	
+
+}
+
+#description{
+	color:white;
+	margin-left:90px;
+	font-size:1.25em;
+	text-align:center;
+	margin:0 20em;
+	font-family:"Roboto";
+
+}
+
+#contact {
+	color: pink;
+	text-align: center;
+}
+
+.organization {
+	font-size:2em;
+	margin-bottom: 10px;
+	padding: 1em;
+}
+
+header{
+	background-image: url("free_yoga_5.png");
+	border: 1px black solid;
+    padding: 20px;
+}
+section{
+	background-color: white;
+	/* border: 1px black solid; */
+	padding: 20px;
+}
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+.clearfix:after {
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	content: "";
+}
+
+
