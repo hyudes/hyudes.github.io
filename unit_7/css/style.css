@@ -1,0 +1,272 @@
+<!-- Table of Contents -->
+
+    /* general_style */
+
+    /* header */
+
+    /* nav */
+
+    /* general_content */
+    	/* yoga */
+    	/* running */
+    	/* circuit */
+	/* footer */
+
+@import url(<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">);
+* { margin:0; padding:0; box-sizing:border-box;}
+
+/* general_style */
+
+a {
+	color:white;
+	font-family:'Roboto', sans-serif;
+	font-size:1em;
+	text-align:center;
+}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+  	font-family: 'Roboto', sans-serif;
+  	margin:0px;
+ 
+
+}
+h1{
+	color:pink;
+	font-weight:700px;
+	font-size:5em;
+	text-transform: uppercase;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+	margin:0px;
+	padding:60px;
+} 
+
+h2{
+	color:white;
+	font-weight:400px;
+	font-size: 2.5em;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+	margin:0px;
+	padding:20px;
+	letter-spacing:2px;
+}
+h3{
+	color:white;
+	font-weight:700px;
+	font-size: 3em;
+	text-align:left;
+	font-family:'Roboto', sans-serif;
+
+}
+
+h4 {
+	font-family:'Roboto', sans-serif;
+	font-size:1em;
+	padding:5px 0;
+	text-align:left;
+	color:#666666;
+	letter-spacing:2px;
+}
+
+
+p {
+	color:black;
+	font-weight:500px;
+	font-family:'Roboto', sans-serif;
+}
+hr {
+	color:black;
+	width:800px;
+	border-width:3px;
+	
+
+}
+ul {
+	font-family: 'Roboto', sans-serif;
+	list-style:none;
+}
+
+li{
+	font-family: 'Roboto', sans-serif;
+	font-size:.75em;
+	margin: 10px 0;
+	
+}
+
+img{
+	position: relative;
+	display:inline-block;
+	max-width:100%;
+	height:auto;
+	display:block;
+
+}
+
+/* header */
+header{
+	
+    padding: 0px;
+    background-image: url("https://lh3.googleusercontent.com/VyhC5LUl6mNNkkHY7GRNLrUvcVfPlUm2PC_5zNcxrCDM4mrbcsdC55DMvSmHRuqoTrDofY6hNeKUjn8nv9KMor1ICTIhvhhAUxFfV5mmD2E8wRaVVNnLVX81tgrnd8zsM_OglXUVRfzB0OuJs1wSi9q_cBhFtNQS_WwQYeqGjmqnChhMCXq_NdlhNTD_DG4rvOVDBq04jpbXOl_n0DKzNcT6dqI5-4peNKM5rYv2aNqPLJjoQpuVhrfmmBw5_STMxLfxs35CeVGf-lJOvQuaLkidxcLn9kkVXxDpTrq4VSjWENaLiXzZ5jyNwiCqodCExlVBsVR_eCyXhU0mjBwr2Z9KKNA1EXzvTPYMgYI1YJB5JItbXZ8MbEoRAFsA8v8egHb-QpPWRaNWcd5jkwEdqvpZurrxuxjqvscZ0dl1hkdot28GMXVcp_GKnFSBT005g2v-Zg8FPYvNNyj-gnoE_QO4xifKS272OPeOiSVi3ECpK3NkoKn9UtxnsFKbYY0wQ5iklP_UgDuFR7rSBo8sgVNnGQo0odc3bsB5muiQ5Sum5pBE9N7odUSpcTUSWKdQLK30GXkfefyoqyAK5JgkdCH6hL2NdgGa2cxUo7Mb4iJD1S8XSNR09NpVDMKpfj3-Ixh91mjAuQyAM_rUt7hQfsUjt84tZLKv4VScKlze0Cw=w1437-h484-no");
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	margin:0px;
+}
+
+/* nav */
+
+nav{
+	font-family:'Roboto', sans-serif;
+	text-decoration:none;
+	font-size:1.5em;
+	margin: 0 auto;
+	text-align:center;
+	padding:0px;
+}
+
+nav a {
+	color:white;
+	display:block;
+	text-decoration:none;
+	padding:10px;
+	float:left;
+	letter-spacing:3px;
+	font-size:1.2em;
+	border: 3px solid white;
+	border-radius:10px;
+	margin:0 100px;
+}
+
+/* general_content */
+
+a:hover {
+	background-color:pink;
+	border-radius: 10px;
+}
+
+.clearfix:after {
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	content: "";
+}
+
+.container {
+	background-color:white;
+	margin:0px;
+}
+
+.cta {
+	color: #666666;
+	font-weight: normal;
+	font-size:.9em;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: white;
+}
+
+#description{
+	color:white;
+	font-size:1.3em;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+	margin:0px 450px 100px 450px;
+	letter-spacing:2px;
+	line-height:2;
+}
+
+.list {
+	background:#6897bb;
+	color:white;
+	padding:10px;
+	margin:10px 0;
+	text-align:left;
+	display:inline-block;
+	border-radius: 10px;
+	font-size:.7em;
+}
+
+.organization {
+	float:left;
+	width:31%;
+	font-size:2em;
+	padding:1%;
+	background-color: white;
+	margin:0px;
+}
+.organization img {
+	height:300px;
+	width: auto;
+
+}
+
+#question {
+	background:#468499;
+	padding:40px 0;
+	margin:0px;
+	opacity:.8;
+}
+
+section{
+	background-color: white;
+	/* border: 1px black solid; */
+	padding: 20px;
+	margin:0px;
+}
+
+/* yoga */
+#yoga {
+	background-color:white;
+	margin:0px;
+	padding:0px;
+}
+
+#yoga_header {
+	background-color:#f08080;
+	padding:30px 20px;
+	margin:0px;
+	text-align:center;
+}
+/* running */
+
+#running{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+
+}
+
+#running_header {
+	background-color:#66cdaa;
+	padding:30px 20px;
+	text-align:center;
+	margin:20px 0 0 0;
+}
+/* circuit */
+
+#circuit{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+
+
+}
+#circuit_header {
+	background-color:#a0db8e;
+	padding:30px 20px;
+	text-align:center;
+	margin:20px 0 0 0;
+}
+
+/* footer */
+
+#contact {
+	color: white;
+	text-align: center;
+	padding:20px;
+}
+footer{
+	background-color: #FF957E;
+}
