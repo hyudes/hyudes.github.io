@@ -12,83 +12,85 @@
     	/* circuit */
 	/* footer */
 
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif|Roboto:300,400,500,700,900);
+@import url(<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">);
 * { margin:0; padding:0; box-sizing:border-box;}
 
 /* general_style */
 
+a {
+	color:white;
+	font-family:'Roboto', sans-serif;
+	font-size:1em;
+	text-align:center;
+}
+
 body{
 	font-family:Arial, Helvetica, sans-serif;
-  	font-family: "Roboto";
-  	text-align:left;
-  	background-image: url("http://media.yogajournal.com/wp-content/uploads/Sangeeta-Vallabhan-teaching-at-Bryant-Park.jpg");
-  	background-size: contain;
-    background-repeat: no-repeat;
+  	font-family: 'Roboto', sans-serif;
+  	margin:0px;
+ 
 
 }
 h1{
 	color:pink;
-	font-weight:bold;
-	font-size:8em;
+	font-weight:700px;
+	font-size:5em;
 	text-transform: uppercase;
-	left:0;
 	text-align:center;
-	font-family:"Bree Serif";
+	font-family:'Roboto', sans-serif;
+	margin:0px;
+	padding:60px;
 } 
 
 h2{
 	color:white;
-	font-weight:500px;
-	font-size: 2em;
+	font-weight:400px;
+	font-size: 2.5em;
 	text-align:center;
-	font-family:"Roboto";
+	font-family:'Roboto', sans-serif;
 	padding:20px;
+	letter-spacing:2px;
 }
 h3{
 	color:white;
-	font-weight:600px;
+	font-weight:700px;
 	font-size: 3em;
 	text-align:left;
-	font-family:"Roboto";
+	font-family:'Roboto', sans-serif;
 
 }
 
 h4 {
-	font-family:"Roboto";
-	font-size:1.2em;
-	padding:15px 0;
+	font-family:'Roboto', sans-serif;
+	font-size:1em;
+	padding:5px 0;
 	text-align:left;
+	color:#666666;
+	letter-spacing:2px;
 }
 
 
 p {
 	color:black;
 	font-weight:500px;
-	font-family:"Roboto";
+	font-family:'Roboto', sans-serif;
 }
 hr {
 	color:black;
 	width:800px;
 	border-width:3px;
 	
-}
 
-a {
-	color:white;
-	padding: 5px;
 }
 ul {
-	text-align: left;
-	font-family: "Roboto";
+	font-family: 'Roboto', sans-serif;
 	list-style:none;
-
 }
 
 li{
-	text-align: left;
-	font-family: "Roboto";
+	font-family: 'Roboto', sans-serif;
 	font-size:.75em;
-	margin: 10px 0
+	margin: 10px 0;
 	
 }
 
@@ -104,39 +106,34 @@ img{
 /* header */
 header{
 	
-    padding: 20px;
-}
-
-#slogan{
-	font-weight: 400px;
-	color:white;
-	font-size:2em;
-	text-transform: uppercase;
-	text-align:center;
-	font-family:"Bree Serif";
-	padding:20px;
-	
-
+    padding: 0px;
+    background-image: url("file:///Users/hayleyyudelman/Desktop/generalassembly_circuit/hyudes.github.io/unit_6/images/free_yoga_5.png");
+  	background-size: cover;
+  	margin:0px;
 }
 
 /* nav */
 
 nav{
-	font-family:'Roboto';
+	font-family:'Roboto', sans-serif;
 	text-decoration:none;
 	font-size:1.5em;
 	margin: 0 auto;
 	text-align:center;
-	margin-left:475px;
+	padding:0px;
 }
 
 nav a {
 	color:white;
-	display:inline-block;
+	display:block;
 	text-decoration:none;
-	padding:20px;
+	padding:10px;
 	float:left;
-	text-align:center;
+	letter-spacing:3px;
+	font-size:1.2em;
+	border: 3px solid white;
+	border-radius:10px;
+	margin:0 100px;
 }
 
 /* general_content */
@@ -156,11 +153,13 @@ a:hover {
 
 .container {
 	background-color:white;
+	margin:0px;
 }
 
 .cta {
-	color: black;
-	font-weight: 600px;
+	color: #666666;
+	font-weight: normal;
+	font-size:.9em;
 	text-transform: uppercase;
 	text-decoration: none;
 	background-color: white;
@@ -168,16 +167,20 @@ a:hover {
 
 #description{
 	color:white;
-	font-size:1.25em;
+	font-size:1.4em;
 	text-align:center;
-	margin:0 20em;
-	font-family:"Roboto";
+	font-family:'Roboto', sans-serif;
+	margin:10px 450px 50px 450px;
+	letter-spacing:2px;
+	line-height:2;
 }
 
 .list {
 	background:#6897bb;
 	color:white;
 	padding:10px;
+	margin:10px 0;
+	text-align:left;
 	display:inline-block;
 	border-radius: 10px;
 	font-size:.7em;
@@ -185,11 +188,11 @@ a:hover {
 
 .organization {
 	float:left;
-	width:33.33%;
+	width:31%;
 	font-size:2em;
-	margin-bottom: 10px;
-	padding:1em;
+	padding:1%;
 	background-color: white;
+	margin:0px;
 }
 .organization img {
 	height:300px;
@@ -199,35 +202,60 @@ a:hover {
 
 #question {
 	background:#468499;
-	padding:20px;
+	padding:40px 0;
+	margin:0px;
+	opacity:.8;
 }
 
 section{
 	background-color: white;
 	/* border: 1px black solid; */
 	padding: 20px;
+	margin:0px;
 }
 
 /* yoga */
 #yoga {
 	background-color:white;
+	margin:0px;
+	padding:0px;
 }
 
 #yoga_header {
 	background-color:#f08080;
-	padding:20px;
+	padding:30px 20px;
+	margin:0px;
+	text-align:center;
 }
 /* running */
 
+#running{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+
+}
+
 #running_header {
 	background-color:#66cdaa;
-	padding:20px;
+	padding:30px 20px;
+	text-align:center;
+	margin:20px 0 0 0;
 }
 /* circuit */
 
+#circuit{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+
+
+}
 #circuit_header {
 	background-color:#a0db8e;
-	padding:20px;
+	padding:30px 20px;
+	text-align:center;
+	margin:20px 0 0 0;
 }
 
 /* footer */
@@ -235,6 +263,7 @@ section{
 #contact {
 	color: white;
 	text-align: center;
+	padding:20px;
 }
 footer{
 	background-color: #FF957E;
