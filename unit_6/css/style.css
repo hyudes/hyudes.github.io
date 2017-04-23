@@ -1,31 +1,51 @@
+<!-- Table of Contents -->
+
+    /* general_style */
+
+    /* header */
+
+    /* nav */
+
+    /* general_content */
+    	/* yoga */
+    	/* running */
+    	/* circuit */
+	/* footer */
+
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif|Roboto:300,400,500,700,900);
 * { margin:0; padding:0; box-sizing:border-box;}
+
+/* general_style */
+
 body{
 	font-family:Arial, Helvetica, sans-serif;
   	font-family: "Roboto";
-  	background:white;
   	text-align:left;
+  	background-image: url("http://media.yogajournal.com/wp-content/uploads/Sangeeta-Vallabhan-teaching-at-Bryant-Park.jpg");
+  	background-size: contain;
+    background-repeat: no-repeat;
+
 }
 h1{
-	color:white;
+	color:pink;
 	font-weight:bold;
 	font-size:8em;
 	text-transform: uppercase;
 	left:0;
-	margin-left:100px;
 	text-align:center;
 	font-family:"Bree Serif";
 } 
 
 h2{
-	color:#566666;
+	color:white;
 	font-weight:500px;
-	font-size: 3em;
+	font-size: 2em;
 	text-align:center;
 	font-family:"Roboto";
+	padding:20px;
 }
 h3{
-	color:black;
+	color:white;
 	font-weight:600px;
 	font-size: 3em;
 	text-align:left;
@@ -33,11 +53,17 @@ h3{
 
 }
 
+h4 {
+	font-family:"Roboto";
+	font-size:1.2em;
+	padding:15px 0;
+	text-align:left;
+}
+
 
 p {
-	color:white;
+	color:black;
 	font-weight:500px;
-	font-size:1em;
 	font-family:"Roboto";
 }
 hr {
@@ -48,7 +74,8 @@ hr {
 }
 
 a {
-	color:pink;
+	color:white;
+	padding: 5px;
 }
 ul {
 	text-align: left;
@@ -60,6 +87,8 @@ ul {
 li{
 	text-align: left;
 	font-family: "Roboto";
+	font-size:.75em;
+	margin: 10px 0
 	
 }
 
@@ -71,13 +100,13 @@ img{
 	display:block;
 
 }
-.organization {
-	float:left;
-	width:33.33%;
+
+/* header */
+header{
+	
+    padding: 20px;
 }
-.organization img {
-	width:100%;
-}
+
 #slogan{
 	font-weight: 400px;
 	color:white;
@@ -85,51 +114,38 @@ img{
 	text-transform: uppercase;
 	text-align:center;
 	font-family:"Bree Serif";
+	padding:20px;
 	
 
 }
 
-#description{
-	color:white;
-	margin-left:90px;
-	font-size:1.25em;
+/* nav */
+
+nav{
+	font-family:'Roboto';
+	text-decoration:none;
+	font-size:1.5em;
+	margin: 0 auto;
 	text-align:center;
-	margin:0 20em;
-	font-family:"Roboto";
-
+	margin-left:475px;
 }
 
-#contact {
-	color: pink;
-	text-align: center;
+nav a {
+	color:white;
+	display:inline-block;
+	text-decoration:none;
+	padding:20px;
+	float:left;
+	text-align:center;
 }
 
-.organization {
-	font-size:2em;
-	margin-bottom: 10px;
-	padding: 1em;
+/* general_content */
+
+a:hover {
+	background-color:pink;
+	border-radius: 10px;
 }
 
-header{
-	background-image: url("free_yoga_5.png");
-	border: 1px black solid;
-    padding: 20px;
-}
-section{
-	background-color: white;
-	/* border: 1px black solid; */
-	padding: 20px;
-}
-aside{
-	background-color: #FFC675;
-	border: 1px black solid;
-    padding: 20px;
-}
-footer{
-	background-color: #FF957E;
-	border: 1px black solid;
-    padding: 20px;
-}
 .clearfix:after {
 	display:block;
 	clear:both;
@@ -138,4 +154,88 @@ footer{
 	content: "";
 }
 
+.container {
+	background-color:white;
+}
 
+.cta {
+	color: black;
+	font-weight: 600px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: white;
+}
+
+#description{
+	color:white;
+	font-size:1.25em;
+	text-align:center;
+	margin:0 20em;
+	font-family:"Roboto";
+}
+
+.list {
+	background:#6897bb;
+	color:white;
+	padding:10px;
+	display:inline-block;
+	border-radius: 10px;
+	font-size:.7em;
+}
+
+.organization {
+	float:left;
+	width:33.33%;
+	font-size:2em;
+	margin-bottom: 10px;
+	padding:1em;
+	background-color: white;
+}
+.organization img {
+	height:300px;
+	width: auto;
+
+}
+
+#question {
+	background:#468499;
+	padding:20px;
+}
+
+section{
+	background-color: white;
+	/* border: 1px black solid; */
+	padding: 20px;
+}
+
+/* yoga */
+#yoga {
+	background-color:white;
+}
+
+#yoga_header {
+	background-color:#f08080;
+	padding:20px;
+}
+/* running */
+
+#running_header {
+	background-color:#66cdaa;
+	padding:20px;
+}
+/* circuit */
+
+#circuit_header {
+	background-color:#a0db8e;
+	padding:20px;
+}
+
+/* footer */
+
+#contact {
+	color: white;
+	text-align: center;
+}
+footer{
+	background-color: #FF957E;
+}
