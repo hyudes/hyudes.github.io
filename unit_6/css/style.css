@@ -48,6 +48,7 @@ h2{
 	font-size: 2.5em;
 	text-align:center;
 	font-family:'Roboto', sans-serif;
+	margin:0px;
 	padding:20px;
 	letter-spacing:2px;
 }
@@ -107,8 +108,9 @@ img{
 header{
 	
     padding: 0px;
-    background-image: url("file:///Users/hayleyyudelman/Desktop/generalassembly_circuit/hyudes.github.io/unit_6/images/free_yoga_5.png");
+    background-image: url("https://lh3.googleusercontent.com/VyhC5LUl6mNNkkHY7GRNLrUvcVfPlUm2PC_5zNcxrCDM4mrbcsdC55DMvSmHRuqoTrDofY6hNeKUjn8nv9KMor1ICTIhvhhAUxFfV5mmD2E8wRaVVNnLVX81tgrnd8zsM_OglXUVRfzB0OuJs1wSi9q_cBhFtNQS_WwQYeqGjmqnChhMCXq_NdlhNTD_DG4rvOVDBq04jpbXOl_n0DKzNcT6dqI5-4peNKM5rYv2aNqPLJjoQpuVhrfmmBw5_STMxLfxs35CeVGf-lJOvQuaLkidxcLn9kkVXxDpTrq4VSjWENaLiXzZ5jyNwiCqodCExlVBsVR_eCyXhU0mjBwr2Z9KKNA1EXzvTPYMgYI1YJB5JItbXZ8MbEoRAFsA8v8egHb-QpPWRaNWcd5jkwEdqvpZurrxuxjqvscZ0dl1hkdot28GMXVcp_GKnFSBT005g2v-Zg8FPYvNNyj-gnoE_QO4xifKS272OPeOiSVi3ECpK3NkoKn9UtxnsFKbYY0wQ5iklP_UgDuFR7rSBo8sgVNnGQo0odc3bsB5muiQ5Sum5pBE9N7odUSpcTUSWKdQLK30GXkfefyoqyAK5JgkdCH6hL2NdgGa2cxUo7Mb4iJD1S8XSNR09NpVDMKpfj3-Ixh91mjAuQyAM_rUt7hQfsUjt84tZLKv4VScKlze0Cw=w1437-h484-no");
   	background-size: cover;
+  	background-repeat: no-repeat;
   	margin:0px;
 }
 
@@ -167,10 +169,10 @@ a:hover {
 
 #description{
 	color:white;
-	font-size:1.4em;
+	font-size:1.3em;
 	text-align:center;
 	font-family:'Roboto', sans-serif;
-	margin:10px 450px 50px 450px;
+	margin:0px 450px 100px 450px;
 	letter-spacing:2px;
 	line-height:2;
 }
