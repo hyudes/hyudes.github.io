@@ -1,4 +1,4 @@
-<!-- Table of Contents -->
+/* Table of Contents */
 
     /* general_style */
 
@@ -12,8 +12,8 @@
     	/* circuit */
 	/* footer */
 
-@import url(<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">);
-* { margin:0; padding:0; box-sizing:border-box;}
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet");
+* {margin:0;padding:0;box-sizing:border-box;}
 
 /* general_style */
 
@@ -26,10 +26,9 @@ a {
 
 body{
 	font-family:Arial, Helvetica, sans-serif;
-  	font-family: 'Roboto', sans-serif;
-  	margin:0px;
- 
-
+	font-family: 'Roboto', sans-serif;
+	margin:0px;
+	background: #eaeaea;
 }
 h1{
 	color:pink;
@@ -106,10 +105,9 @@ li{
 img{
 	position: relative;
 	display:inline-block;
-	max-width:100%;
+	max-width: 100%;
 	height:auto;
 	display:block;
-
 }
 
 /* header */
@@ -134,17 +132,16 @@ nav{
 
 nav a {
 	color:white;
-	display:inline-block;
-	width:20%;
+	display: block;
+	width: 13em;
 	text-decoration:none;
 	padding:10px;
-	float:left;
 	text-align:center;
 	letter-spacing:3px;
 	font-size:.9em;
 	border: 1px solid white;
 	border-radius:10px;
-	margin:.5% 40%;
+	margin: .5% auto;
 }
 
 /* general_content */
@@ -204,8 +201,8 @@ section{
 /* yoga */
 #yoga {
 	background-color:#eaeaea;
-	margin:0px;
-	padding:30px;
+	margin: 0px auto;
+	max-width: 1200px;
 }
 
 #yoga_header {
@@ -217,9 +214,9 @@ section{
 
 .organization_yoga {
 	float:left;
-	width:28.8%;
+	width: 31.33%;
 	font-size:2em;
-	padding:1%;
+	padding: 1em;
 	background-color: white;
 	margin:0px;
 	border: 1px solid #f08080;
@@ -227,9 +224,7 @@ section{
 }
 
 .organization_yoga img {
-	height:20%;
-	width: auto;
-
+	width: 100%;
 }
 
 .list_yoga {
@@ -277,9 +272,7 @@ section{
 }
 
 .organization_running img {
-	height:20%;
-	width: auto;
-
+	width: 100%;
 }
 
 .list_running {
@@ -332,9 +325,7 @@ section{
 }
 
 .organization_circuit img {
-	height:20%;
 	width: auto;
-
 }
 
 /* footer */
