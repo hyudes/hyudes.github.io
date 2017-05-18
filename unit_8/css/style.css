@@ -119,9 +119,9 @@ nav{
 nav a {
 	color:white;
 	display: block;
-	width: 18em;
+	width: 30%;
 	text-decoration:none;
-	padding:2%;
+	padding:1.5%;
 	text-align:center;
 	letter-spacing:3px;
 	font-size:1em;
@@ -489,7 +489,7 @@ footer{
 	padding:0px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 800px) {
 	body {
   		font-size:12px;
 	}
@@ -501,15 +501,18 @@ footer{
   		background-repeat: no-repeat;
   		overflow: hidden;
   		margin:0px;
-		}
+	}
 
 	nav a {
 			width:20em;
 	}
+	
 	.description {
 	 	margin:0px 10%;
 		padding:15px 0px  50px 0px;
+		font-size:1.5em;
 	}
+	
 	.organization_yoga, .organization_circuit, .organization_running {
 			display:block;
 			float:left;
@@ -518,4 +521,27 @@ footer{
 
 		}
 }
+
+@media only screen and (max-width: 420px) {
+	body {
+		font-size:10px;
+	}
+
+	header {
+		padding: 0px 0px 60px 0px;
+	}
+	
+	h1 {
+		font-size: 3em;
+	}
+
+	.description {
+		font-size:1.25em;
+	}
+
+	nav a {
+		font-size: 1em;
+		width: 70%;
+	}
+
 
