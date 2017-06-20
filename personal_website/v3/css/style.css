@@ -12,7 +12,6 @@ nav{
 	background:#4169e1;
 	vertical-align:middle;
 	text-align:right;
-	display:block;
 	padding:.5em 4em;
 }
 nav a{
@@ -20,6 +19,8 @@ nav a{
 	font-weight:700;
 	font-size:1.5em;
 	text-decoration:none;
+	display:inline;
+	margin:0 1%;
 
 }
 
@@ -217,3 +218,19 @@ nav a{
 	font-weight:300;
 } 
 
+#about {
+	margin:0, auto;
+	padding:0;
+}
+
+#about h1 {
+	font-size:1em;
+	margin:0,auto;
+	text-align:center;
+}
+
+ul{
+	display:list-item;
+	list-style-position: outside;
+	margin:10px;
+}
