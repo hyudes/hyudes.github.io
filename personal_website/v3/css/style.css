@@ -1,0 +1,219 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+
+body{
+	font-size:16px;
+	margin:0;
+	padding:0;
+	font-family: 'Overpass', sans-serif;
+}
+
+nav{
+	background:#4169e1;
+	vertical-align:middle;
+	text-align:right;
+	display:block;
+	padding:.5em 4em;
+}
+nav a{
+	color:white;
+	font-weight:700;
+	font-size:1.5em;
+	text-decoration:none;
+
+}
+
+.clearfix:after {
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	content: "";
+}
+
+.header{
+	background:white;
+  	padding:2em;
+
+}
+
+#image{
+	float:right;
+	display:inline-block;
+	margin:6.5% 1% 0 0;
+	padding:0;
+	max-width:100%;
+}
+
+.header h1{
+ color:#333333;
+ font-size:4em;
+ max-width:1000px;
+ font-family: 'Overpass', sans-serif;
+ line-height:1.25;
+ padding:.25em 0;
+ margin:0;
+}
+
+#question{
+	padding:.5em 0;
+	margin:0;
+	font-size:2em;
+	color:#666666;
+	text-align:left;
+	font-family: 'Overpass', sans-serif;
+}
+
+#types{
+ padding:0;
+ margin:0;
+ text-align:center;
+}
+
+#types a{
+	width: 30%;
+	color:white;
+	font-weight:700;
+	letter-spacing:3px;
+	font-size:2em;
+	border: 10px solid #333333;
+	margin: .5%;
+	padding:1.25em;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+}
+
+#innovative{
+	background:#f6546a;
+}
+
+#creamy {
+	background:#20b2aa;
+}
+
+#vegan {
+	background:#ffa500;
+
+}
+
+
+#ice-cream {
+	margin: 0 auto;
+	padding:0;
+	max-width: 1200px;
+}
+
+.ice-cream {
+	float:left;
+	width: 30%;
+	font-size:1.75em;
+	padding: .5em;
+	background-color: white;
+	margin:1%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ice-cream-header {
+	background:#4169e1;
+	max-width:100%;
+	padding:2em;
+	text-align:center;
+	margin-bottom:3%;
+}
+#ice-cream-header h3 {
+	font-size:2.2em;
+	color:white;
+}
+
+.ice-cream h3 {
+	color:#4169e1;
+	line-height:1;
+	margin:0;
+	padding:0;
+}
+.ice-cream a {
+	color:#999999;
+	font-weight:300;
+	font-size:.6em;
+	line-height: 1em;
+	text-align:left;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+
+}
+
+.ice-cream h4{
+	font-weight:700;
+	color:#666666;
+	font-size:.8em;
+	line-height: 1em;
+	text-align:left;
+	margin:.5em 0;
+	padding:0;
+
+}
+
+.ice-cream p {
+	color:#666666;
+	font-weight:300;
+	font-size:.6em;
+	line-height: 1em;
+	text-align:left;
+	margin:0 0 1em 0;
+	padding:0;
+
+}
+
+#innovative-page {
+	background:#f6546a;
+	padding:1em;
+	max-width:100%;
+	color:white;
+	margin:2% 0 3% 0;
+}
+
+#innovative-page h1 {
+	font-size:3em;
+}
+#innovative-page p {
+	font-size:1.1em;
+	margin:0 40% 0 0;
+	font-weight:300;
+} 
+
+#vegan-page {
+	background:#ffa500;
+	padding:1em;
+	max-width:100%;
+	color:white;
+	margin:2% 0 3% 0;
+}
+
+#vegan-page h1 {
+	font-size:3em;
+}
+#vegan-page p {
+	font-size:1.1em;
+	margin:0 40% 0 0;
+	font-weight:300;
+} 
+
+#creamy-page {
+	background:#20b2aa;
+	padding:1em;
+	max-width:100%;
+	color:white;
+	margin:2% 0 3% 0;
+}
+
+#creamy-page h1 {
+	font-size:3em;
+}
+#creamy-page p {
+	font-size:1.1em;
+	margin:0 40% 0 0;
+	font-weight:300;
+} 
+

@@ -1,0 +1,135 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+
+body{
+	font-size:16px;
+	margin:0;
+	padding:0;
+	font-family: 'Overpass', sans-serif;
+}
+
+h1{
+	
+}
+
+h2{
+	
+}
+
+p{
+	color:teal;
+}
+
+nav{
+	background:white;
+	height:25px;
+}
+nav a{
+	padding:2em;
+}
+
+.clearfix:after {
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	content: "";
+}
+
+.header{
+	background-image: url("https://lh3.googleusercontent.com/4tse69yNE8ntKZ-Qr5KPtD_v6pfi9lDjTRnt5mt8nv9V4poOb-0WZ8ZmE4GSfI-WC7RiBSgphgI1PIVlTCfRvYyEMkr9ECbNfijunOwLuV4wAtW8JnqHQgmXTkJ6LkrcISxSNGEA1bLb5Ys0LfHYPVAxC-YaclqJZOO_n9ZjE4qKRd65XAWpTxze0FT1fp7P_hFEanwqB05hnLafLYJJ9pqU2XExDAFcwGMtQrn7cDwCchHcHaXzIQpmh5kGLpqz6M97mR2rHIfKWLXPnmBZADvPMB5Q3ZnOlSoJfqb08QmvvcPmancgCHKJ9fTUiIO-05e5G2Oy2H9ZSc2XNCQ8sjC2_Q2R68q44bAvTW0QaNNRP3yacUdhJcmCsI1fTcLgQ9n21KbKxNlYatOCVCQqoKXAfSpZAmOI1dH8UbEA-y7-R5KZ1jTo6Ij9QzXudybRKGal9Im2grMZNkMCodPD8O47KFvH2I9llOlh9hIGhFl5uIxF7MQiTEZYEi0Fw12yxhwx09v7DWMFr2t2Ch4CDt8UbjXH38pMjhHKy6-N6s6q2a6KU8vGW4P8Zu04IGu_-JS9RGerRRlzM4VE41amEBlII1KiwZzPaTYdDtTVd2-KKIY-lNtOgQ=w611-h518-no");
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	overflow: hidden;
+  	padding:2em;
+
+}
+
+.header h1{
+ color:#ABB4E8;
+ font-size:4.5em;
+ font-family: 'Overpass', sans-serif;
+ padding:0 10em 0 0;
+}
+
+#question{
+	padding:0 0 0 .5em;
+	font-size:2em;
+	color:black;
+	text-align:center;
+	font-family: 'Overpass', sans-serif;
+}
+
+#types{
+ padding:0;
+ margin:0 auto;
+ text-decoration:none;
+ max-width:800px;
+ font-family: 'Overpass', sans-serif;
+}
+
+#innovative{
+	color:grey;
+	font-weight:700;
+}
+
+#creamy {
+	color:green;
+	font-weight:700;
+}
+
+#crunchy {
+	color:blue;
+	font-weight:700;
+}
+
+#vegan {
+	color:pink;
+	font-weight:700;
+}
+
+#types a{
+	width: 40%;
+	letter-spacing:3px;
+	font-size:2.5em;
+	border: 10px solid white;
+	margin: 1%;
+	padding:2em;
+	float:right;
+	text-align:center;
+	text-decoration:none;
+}
+
+#ice-cream {
+	margin: 0 auto;
+	padding:0;
+	max-width: 1200px;
+}
+
+.ice-cream {
+	float:left;
+	width: 31.33%;
+	font-size:2.2em;
+	padding: 1em;
+	background-color: white;
+	margin:7% 1%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ice-cream p{
+	color:#666666;
+	font-weight:normal;
+	font-size:.5em;
+	line-height: 1em;
+	text-align:left;
+	margin:.5em 0 .75em 0;
+}
+
+#ice-cream-header {
+	background:white;
+	max-width:100%;
+	padding:3em;
+	text-align:center;
+}
+#ice-cream-header h3 {
+	font-size:2.2em;
+}
