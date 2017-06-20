@@ -220,17 +220,32 @@ nav a{
 
 #about {
 	margin:0, auto;
-	padding:0;
+	padding:2em 4em;
+	max-width:1200px;
+	text-align:left;
 }
 
 #about h1 {
-	font-size:1em;
-	margin:0,auto;
-	text-align:center;
+	color:#4169e1;
+	font-size:2em;
 }
 
-ul{
-	display:list-item;
-	list-style-position: outside;
-	margin:10px;
+#about h2 {
+	font-size:1em;
+	margin:2em 0;
+	text-align:left;
+	line-height:2;
+	color:#555555;
 }
+
+#about p {
+	font-size:1em;
+	margin:.5em 0;
+	font-weight:700;
+}
+
+#about li {
+	font-size:.9em;
+}
+
+
